@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./main.js">
+</head>
+<body>
+    
+    <!-- Bài tập 1  -->
+     
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Luong NV</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Số ngày làm</label>
+                  <input id="soNgayLam" type="text" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>tính lương</label>
+                  
+                </div>
+                <button id="btnTinhLuong" class="btn btn-success">Tính Lương</button>
+              </div>
+              <div id="showInfoLuongNV" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bài tập 2  -->
+
+
+      <hr/>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Số Thực</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Số 1</label>
+                  <input id="so1" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 2</label>
+                  <input id="so2" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 3</label>
+                  <input id="so3" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 4</label>
+                  <input id="so4" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Số 5</label>
+                  <input id="so5" type="number" class="form-control" />
+                </div>
+                <button id="btnSubmit1" class="btn btn-success">Submit</button>
+              </div>
+              <div id="showInfoTrungBinh" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bài tập 3  -->
+
+      <hr/>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Số Thực</div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>nhập USD</label>
+                  <input id="usd" type="number" class="form-control" />
+                </div>
+            
+     
+                <button id="btnQuyDoiTien" class="btn btn-success">Quy Đổi Tiền</button>
+              </div>
+              <div id="showInfoQuyDoiTien" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Bài tập 4  -->
+
+      <hr/>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Hình Chữ Nhật </div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Chiều Dài</label>
+                  <input id="chieuDai" type="number" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Chiều Rộng</label>
+                  <input id="chieuRong" type="number" class="form-control" />
+                </div>
+            
+     
+                <button id="btnTinhHCN" class="btn btn-success">TinhHCN</button>
+              </div>
+              <div id="showInfoHCN" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+
+
+      <!-- Bài tập 5  -->
+      <hr/>
+      <hr/>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Tổng 2 ký Số </div>
+              <div class="card-body">
+                <div class="form-group">
+                  <label>Nhập số có 2 ky số</label>
+                  <input id="kyso" type="number" class="form-control" />
+                </div>
+               
+            
+     
+                <button id="btnTongKySo" class="btn btn-success">Tổng Ký Số</button>
+              </div>
+              <div id="showInfoKySo" class="card-footer text-muted"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
